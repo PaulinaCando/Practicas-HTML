@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head> 
+		<title>Búsqueda</title>
+		<meta charset ="utf-8">
+	</head>
+	<body>
+
+		<form>
+		<table>
+		<label>Nombre:</label>
+		<input type="text" name="q" placeholder = "Nombres" required>*
+		</td>
+		<label>Apellido Paterno:</label>
+		<input type="text" name="q" placeholder = "Apellido Paterno"required>*
+		
+		<label>Apellido Materno:</label>
+		<input type="text" name="q" placeholder = "Apellido Materno"required>*
+		<label>Fecha de nacimiento:</label>
+		<input type="date" name="q" placeholder = "Fecha de Nacimiento">
+		<label>Direccion:</label>
+		<input type="text" name="q" placeholder = "Direccion"required>*
+		<label>Telefono:</label>
+		<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder = "Telefono"required>*
+		<label>Correo Electronico:</label>
+		<input type="email" name="q" placeholder = "Correo Electronico">
+		<tr>
+		<td><label> Helado preferido:</label></td>
+		<input list="ice-cream-flavors"  name="ice-cream-choice" />
+
+       <datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+    </datalist>
+	</td>
+
+		
+		
+		<tr>
+		<td> <input type="reset"  value="Limpiar" >
+		</tr>
+		
+		<label for ="chk"> </label>
+		    <input type="text" name="q" placeholder = "Texto a buscar">
+			<input type="checkbox" id="chk"> "He leído los terminos y condiciones"
+			<input type="submit"  value="Enviar" >
+			
+
+		</form>
+		
+		
+	</body>
+</html>
